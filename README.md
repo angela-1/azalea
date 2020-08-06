@@ -9,10 +9,10 @@ The `app` project port forward is: 10080(host)  -> 8080(guest) -> 3000(docker co
 
 **Note**
 
-As the issue 652 of vite says, to make the vite app work, 
+As the issue [#652](https://github.com/vitejs/vite/issues/652) of vite says, to make the vite app work, 
 must modify vite dist file `client.js` in `node_modules/vite/dist/client/client.js` line 23
 
-if the pr 677 merged, has config for socketPort, this can be ignore
+if the pr [677](https://github.com/vitejs/vite/pull/677) merged, has config for socketPort, this can be ignore
 
 
 ```js
